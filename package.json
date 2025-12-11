@@ -1,0 +1,10 @@
+{
+    "name": "nexor-alturas-root",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "cd frontend && npm run dev",
+        "build": "cd frontend && npm run build",
+        "backend": "py -m uvicorn backend.main:app --reload"
+    }
+}
